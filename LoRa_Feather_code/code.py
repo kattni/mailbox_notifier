@@ -24,7 +24,7 @@ led.switch_to_output()
 led.value = True
 
 # Set up the alarm pin
-pin=digitalio.DigitalInOut(board.D12)
+pin = digitalio.DigitalInOut(board.D12)
 pin.pull = digitalio.Pull.UP
 
 print("Count:", alarm.sleep_memory[0])

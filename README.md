@@ -15,7 +15,7 @@ This project is designed to provide you with a visual notification when your mai
 * [Small Plastic Project Enclosure](https://www.adafruit.com/product/903)
 * Any Raspberry Pi, though the LoRa Bonnet is the same size as the PiZeroW/PiZero2W.
 * [Adafruit LoRa Bonnet with OLED - RFM952 @ 915MHz](https://www.adafruit.com/product/4074)
-* "Normally open" reed switch. **"Normally open" is a requirement!** The code will not work with a "normally closed" switch. Available on Amazon, etc.
+* "Normally closed" (NC) reed switch. **"Normally closed" is a requirement!** The code will not work with a "normally open" (NO) switch. Available on Amazon, etc. A reed switch that does both NC and NO will also work.
 ### Antenna options:
 ##### Option one:
 * [Hookup wire (link is to many options)](https://www.adafruit.com/?q=solid-core+wire+spool&p=1&sort=BestMatch)
